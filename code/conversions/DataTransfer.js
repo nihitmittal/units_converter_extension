@@ -94,4 +94,6 @@ class DataTransfer {
     }
 }
 
+if(typeof module == 'object') {
 module.exports = DataTransfer;
+}

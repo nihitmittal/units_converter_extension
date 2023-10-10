@@ -94,5 +94,6 @@ class Time {
 		return res;
 	}
 }
-
+if(typeof module == 'object') {
 module.exports = Time;
+}

@@ -35,7 +35,7 @@ class Length {
      */
     getPreciseNumber(number, precision) {
         return number.toPrecision(
-            Math.min(Math.max(this.getPrecision(number), precision), 10)
+            Math.min(Math.max(this.getPrecision(number), precision), 3)
         );
     }
     /**
@@ -142,4 +142,6 @@ class Length {
 
 }
 
-module.exports = Length
+if(typeof module == 'object') {
+module.exports = Length;
+}

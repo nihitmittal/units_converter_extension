@@ -34,7 +34,7 @@ class Mass {
      */
     getPreciseNumber(number, precision) {
         return number.toPrecision(
-            Math.min(Math.max(this.getPrecision(number), precision), 10)
+            Math.min(Math.max(this.getPrecision(number), 3), 10)
         );
     }
 
@@ -128,5 +128,6 @@ class Mass {
 
 
 }
-
+if(typeof module == 'object') {
 module.exports = Mass;
+}
