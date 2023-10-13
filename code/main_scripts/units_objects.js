@@ -282,5 +282,84 @@ const UNITS = [{
             "Miles per hour",
             "miles per hour"
         ]
+    },
+    ,
+    {
+        unit: "litres",
+        type: "volume",
+        aliases: ["lt",
+            "litre",
+            "litres",
+            "lt",
+            "ltr",
+            "ltrs",
+            "L",
+            "l"
+        ]
+    },
+    {
+        unit: "milliliter",
+        type: "volume",
+        aliases: ["ml",
+            "mls",
+            "millilitres",
+            "millilitre"
+        ]
+    },
+    {
+        unit: "cubic meter",
+        type: "volume",
+        aliases: ["cubic metre",
+            "cm3",
+            "cm³"
+        ]
+    },
+    {
+        unit: "cubic inch",
+        type: "volume",
+        aliases: ["in3",
+            "in³",
+            "cubic inches",
+        ]
+    },
+    {
+        unit: "cubic foot",
+        type: "volume",
+        aliases: ["ft3",
+            "foot³",
+            "feet³"
+        ]
+    },
+    {
+        unit: "pint",
+        type: "volume",
+        aliases: ["pint",
+            "pt",
+            "p"
+        ]   
+    },
+    {
+        unit: "quart",
+        type: "volume",
+        aliases: ["qt",
+            "Qt",
+            "quarts"
+        ]   
+    },
+    {
+        unit: "quart",
+        type: "volume",
+        aliases: ["qt",
+            "Qt",
+            "quarts"
+        ]   
+    },
+    {
+        unit: "gallon",
+        type: "volume",
+        aliases: ["gl",
+            "gals",
+            "gall"
+        ]   
     }
 ]
