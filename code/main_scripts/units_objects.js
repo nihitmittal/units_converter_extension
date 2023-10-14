@@ -290,7 +290,6 @@ const UNITS = [{
         aliases: ["lt",
             "litre",
             "litres",
-            "lt",
             "ltr",
             "ltrs",
             "L",
