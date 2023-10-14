@@ -347,14 +347,6 @@ const UNITS = [{
         ]   
     },
     {
-        unit: "quart",
-        type: "volume",
-        aliases: ["qt",
-            "Qt",
-            "quarts"
-        ]   
-    },
-    {
         unit: "gallon",
         type: "volume",
         aliases: ["gl",
