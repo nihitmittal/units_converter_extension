@@ -290,7 +290,6 @@ const UNITS = [{
         aliases: ["lt",
             "litre",
             "litres",
-            "lt",
             "ltr",
             "ltrs",
             "L",
@@ -336,14 +335,6 @@ const UNITS = [{
         aliases: ["pint",
             "pt",
             "p"
-        ]   
-    },
-    {
-        unit: "quart",
-        type: "volume",
-        aliases: ["qt",
-            "Qt",
-            "quarts"
         ]   
     },
     {
