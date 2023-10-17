@@ -45,7 +45,7 @@ const POPULAR_UNITS = {
     "quart",
     "gallon",
   ],
-  data: ["B", "KB", "MB", "GB", "TB"],
+  data: ["MB", "GB", "TB","B", "KB"],
 };
 
 const PRE_SYMBOLS = new Set([
