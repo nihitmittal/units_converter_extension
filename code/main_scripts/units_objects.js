@@ -310,7 +310,7 @@ const UNITS = [
   {
     unit: "litres",
     type: "volume",
-    aliases: ["lt", " liter", "liters", "litre", "Litres"],
+    aliases: ["lt", " liter", "liters", "litre", "Litres", "L"],
   },
   {
     unit: "milliliter",
@@ -320,17 +320,17 @@ const UNITS = [
   {
     unit: "cubic meter",
     type: "volume",
-    aliases: ["cubic meters", " cubic metre", "cubic metres", "cm3"],
+    aliases: ["cubic meters", " cubic metre", "cubic metres", "cm3", "cm^3"],
   },
   {
     unit: "cubic inch",
     type: "volume",
-    aliases: ["cubic inches", " ci3"],
+    aliases: ["cubic inches", " ci3", "in^3"],
   },
   {
     unit: "cubic foot",
     type: "volume",
-    aliases: ["cf3", " cubic feet"],
+    aliases: ["cf3", " cubic feet", "ft3", "ft^3"],
   },
   {
     unit: "pint",
