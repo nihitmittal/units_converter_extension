@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Default font family */
+}
+
+.selector {
+    background-color: #ffffff; /* White background */
+    background-image: linear-gradient(top, #ffffff, #f1f1f1); /* Gradient for modern look */
+    border: 1px solid #dcdcdc; /* Lighter border color */
+    color: #333; /* Darker text color for better readability */
+    font-size: 14px;
+    line-height: 24px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    padding: 8px 12px; /* Adjusted padding */
+    text-align: left;
+    text-decoration: none;
+    border-radius: 4px; /* Slightly rounded corners */
+    width: 150px;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+
+}
+
+.selector:hover {
+    background-color: #0e918daa; /* Light hover background */
+    border-color: #c1c1c1; /* Darker border color on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.selector:focus {
+    border-color: #9fb1c7; /* Focus border color */
+    box-shadow: 0 0 0 2px rgba(24, 120, 240, 0.4); /* Focus box shadow */
+}
+
+.selector:disabled {
+    background-color: #fff;
+    border-color: #f3f3f3;
+    color: #b8b8b8;
+}
+
+.main_container {
+    padding: 24px;
+    width: 400px;
+}
+
+
+.unit_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 1rem;
+}
+
+.unit {
+    border: 1px solid #eaeaea; /* Lighter border color */
+    border-radius: 8px; /* Slightly rounded corners */
+}
+
+.unit input {
+    font-size: 24px;
+    text-align: center;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 12px 0;
+}
+
+.unit select {
+    font-size: 16px;
+    margin: auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 8px;
+}
+
+.type_container select {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+}
+
+.Tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.tablinks {
+    flex: 1;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-right: 1px solid #dcdcdc;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.tablinks:hover span {
+    border-bottom: 1px solid #000;
+}
+
+.tablinks.selected {
+    background-color: #e0e0e0; /* Selected tab background */
+}
+
+.viewAllButton {
+    margin-top: 15px; /* Increased top margin */
+    border-radius: 20px; /* Rounded button corners */
+    padding: 10px 20px; /* Increased padding */
+    background-color: #0e918c; /* New button color */
+    color: #fff; /* Button text color */
+    font-size: 16px; /* Font size */
+    border: none; /* Removed border */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  .viewAllButton:hover {
+    background-color: #0b6c66;
+  }
+
